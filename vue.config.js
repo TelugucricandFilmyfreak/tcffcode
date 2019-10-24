@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: 'telugu-cric-and-filmy-freak'
-}
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/telugucricandfilmyfreak/'
+      : '/'
+  }

@@ -40,12 +40,14 @@ export default {
 </script>
 <style scoped>
 img{
-    height: 300px!important;
-    width:300px!important;
+  transition: transform .4s; /* Animation */
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
 }
+
 img:hover{
-    opacity: 0.6;
-    color: black!important;
+ transform: scale(0.9);
 }
 .center-text{
     font-family: 'Oswald', sans-serif;
